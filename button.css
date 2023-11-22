@@ -1,0 +1,15 @@
+button, [type=button i], [type=submit i], [type=reset i], [role=button i] {
+  appearance: none;
+  display: inline-block;
+  padding: 1ch;
+  cursor: default;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+
+  &:active {
+    -webkit-text-fill-color: #fff;
+    background-color: currentcolor;
+  }
+}
