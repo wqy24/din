@@ -3,6 +3,8 @@ button, [type=button i], [type=submit i], [type=reset i], [role=button i] {
   display: inline-block;
   padding: 1ch;
   cursor: default;
+  border: 1px solid;
+  background: none;
 
   &:hover {
     background-color: rgba(0, 0, 0, .1);
