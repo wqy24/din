@@ -6,6 +6,12 @@
   unicode-range: U+203C-3299, U+1F???;
 }
 
+@property --default-control-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: currentcolor;
+}
+
 :root {
   --hover-filter: brightness(0.8);
   --default-font: system-ui, Color-Emoji, sans-serif;
