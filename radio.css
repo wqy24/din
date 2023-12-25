@@ -1,0 +1,17 @@
+[type=radio i] {
+  appearance: none;
+  display: inline-block;
+  width: 13px!important;
+  height: 13px!important;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 2px!important;
+  background-clip: content-box;
+  &:hover {
+    filter: brightness(0.8);
+  }
+
+  &:checked {
+    background-color: currentcolor;
+  }
+}
